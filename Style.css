@@ -1,0 +1,42 @@
+body {
+   display: flex;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+
+  #form_valid{
+      border-style: solid;
+      border-color: black;
+      padding:4%;
+      background-color: bisque;
+  }
+  #details{
+      text-align: center;
+      justify-content: center;
+      text-decoration: underline;
+      
+  }
+  form{
+      justify-content: center;
+      align-items: center;
+  }
+
+  #btn input{
+        background-color: rgb(201, 173, 121);
+        cursor: pointer;
+        padding: 3%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 37%;
+        
+        font-size: 20px;
+  }
+  #input_label input{
+      margin-left: 5%; 
+  }
+  
+ 
+ 
