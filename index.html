@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Details Form</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+        
+
+	<form name="form">
+        <p id="h">Details Form</p>
+
+	<hr class="h"><br>
+
+		<label class="labels">Name :</label>
+		<input type="text" name="name" id="name" required><br>
+
+		<label class="labels">Mob. No. :</label>
+		<input type="number" name="number" id="num" required><br>
+
+		<label class="labels">Email ID : </label>
+		<input type="email" name="email" id="email" required><br>
+
+        <div class="btn">
+            <button type="submit" class="button button1" form="form" onclick="add()">Submit</button>
+        </div>
+	</form><br>
+ 
+   
+
+	<hr>
+
+	<table style="display: none;" id="result">
+		<tr class="headers">
+			<th >Name</th>
+			<th>Mob. No.</th>
+			<th>Email ID</th>
+			<th></th>
+		</tr>
+	</table>
+        <script src="script.js"></script>
+    </body>
+</html>
