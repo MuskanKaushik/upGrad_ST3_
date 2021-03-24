@@ -1,0 +1,10 @@
+Below given was the question for ST - 3 upGrad:
+
+a) You have to make a form that will have three input   
+    	1) You have to take name from the user (name should be of minimum 3 length)
+    	2) You have to take number from the user (Number should be of 10 length)
+   	3) You have to take email id from the user (You have to check valid email id eg @gmail.com     or  @hotmail.com at the end)
+b) Validation of the form should be there you cannot submit the empty form. It should generate the alert message if there is an empty field.
+c) When you click on submit button then the input taken from the user must be displayed below the form.
+d) Every time you click on the submit button all the information should be added on the page and the previous information should also be there.
+
